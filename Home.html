@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="Nav-bar">
+        <div class="navdiv">
+            <div class="logo">
+                <img src="./images/logo.jpg">
+                <span class="name"><a href="Home.html">Maxwell Githinji</a></span>
+            </div>
+            <ul class="links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Pricing.html">Pricing</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="container-text">
+            <p class="hello">HELLO! I'M</p>
+            <h1 class="Name">MAXWELL GITHINJI</h1>
+        </div>
+        <div class="container-text">
+            <p class="hello">I'M FROM NAIROBI, KENYA</p>
+            <h1 class="Name">A WEB DEVELOPER</h1>
+        </div>
+    </div>
+    <div class="content">
+        <img class="max" src="./images/max.jpeg">
+        <div class="content-text">
+            <p class="description">I am a software engineer passionate about building efficient, scalable, and user-friendly applications. Skilled in JavaScript, HTML, CSS, and backend development, I focus on writing clean, maintainable code while continuously learning. Currently honing my skills at Moringa School, I strive to deliver high-quality solutions, collaborate effectively, and stay updated with industry trends. </p>
+            <h3 class="get">Get in touch</h3>
+            <div class="icons">
+                <a href="https://api.whatsapp.com/send/?phone=254790314377&text&type=phone_number&app_absent=0">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+                <a href="tel:0746013145">
+                    <i class="bi bi-telephone"></i>
+                </a>
+                 <a href="https://mail.google.com/mail/u/0/#inbox">
+                    <i class="bi bi-envelope-at"></i>
+                </a>
+                <a href="https://www.instagram.com/gmerney_?igsh=MWhobWFudXEzaGtnZA==">
+                     <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+        </div>    
+    </div>
+    <footer class="footer">
+        <p>Copyright &copy; Maxwell Githinji <span id="year"></span> </p>
+    </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
